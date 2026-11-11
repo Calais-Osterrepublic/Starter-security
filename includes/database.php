@@ -7,7 +7,7 @@
 
 $config = require dirname($_SERVER['DOCUMENT_ROOT']) . '/config/db-config.php';
 
-echo(dirname($_SERVER['DOCUMENT_ROOT']) . '/config/db-config.php');
+// echo(dirname($_SERVER['DOCUMENT_ROOT']) . '/config/db-config.php');
 
 $dsn = 'mysql:host=' . $config['host'] . ';dbname=movie_favorites';
 
